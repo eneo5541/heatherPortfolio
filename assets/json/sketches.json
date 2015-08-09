@@ -1,0 +1,57 @@
+[
+    {
+        "title": "Example Sketch Image 1", 
+        "image": "./assets/img/sketches/sketch01.png",
+		"description": "This is the first example image. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quam orci, elementum eget sollicitudin id, malesuada et mauris. Duis ultricies suscipit lacus."
+    },
+    {
+        "title": "Example Sketch Image 2", 
+        "image": "./assets/img/sketches/sketch02.png",
+		"description": "This is the second example image."
+    },
+    {
+        "title": "Example Sketch Image 3", 
+        "image": "./assets/img/sketches/sketch03.png",
+		"description": "This is the second example image."
+    },
+    {
+        "title": "Example Sketch Image 4", 
+        "image": "./assets/img/sketches/sketch04.png",
+		"description": "This is the second example image."
+    },
+    {
+        "title": "Example Sketch Image 5", 
+        "image": "./assets/img/sketches/sketch05.png",
+		"description": "This is the second example image."
+    },
+    {
+        "title": "Example Sketch Image 6", 
+        "image": "./assets/img/sketches/sketch06.png",
+		"description": "This is the second example image."
+    },
+    {
+        "title": "Example Sketch Image 7", 
+        "image": "./assets/img/sketches/sketch07.png",
+		"description": "This is the second example image."
+    },
+    {
+        "title": "Example Sketch Image 8", 
+        "image": "./assets/img/sketches/sketch08.png",
+		"description": "This is the second example image."
+    },
+    {
+        "title": "Example Sketch Image 9", 
+        "image": "./assets/img/sketches/sketch09.png",
+		"description": "This is the second example image."
+    },
+    {
+        "title": "Example Sketch Image 10", 
+        "image": "./assets/img/sketches/sketch10.png",
+		"description": "This is the second example image."
+    },
+    {
+        "title": "Example Sketch Image 11", 
+        "image": "./assets/img/sketches/sketch11.png",
+		"description": "This is the second example image."
+    }
+]

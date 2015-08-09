@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Example Traditional Image 1", 
+        "image": "./assets/img/traditional/traditional01.png",
+		"description": "This is the first example image. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quam orci, elementum eget sollicitudin id, malesuada et mauris. Duis ultricies suscipit lacus."
+    },
+    {
+        "title": "Example Traditional Image 2", 
+        "image": "./assets/img/traditional/traditional02.png",
+		"description": "This is the second example image."
+    },
+    {
+        "title": "Example Traditional Image 3", 
+        "image": "./assets/img/traditional/traditional03.png",
+		"description": "This is the second example image."
+    },
+    {
+        "title": "Example Traditional Image 4", 
+        "image": "./assets/img/traditional/traditional04.png",
+		"description": "This is the second example image."
+    },
+    {
+        "title": "Example Traditional Image 5", 
+        "image": "./assets/img/traditional/traditional05.png",
+		"description": "This is the second example image."
+    },
+    {
+        "title": "Example Traditional Image 6", 
+        "image": "./assets/img/traditional/traditional06.png",
+		"description": "This is the second example image."
+    },
+    {
+        "title": "Example Traditional Image 7", 
+        "image": "./assets/img/traditional/traditional07.png",
+		"description": "This is the second example image."
+    }
+]

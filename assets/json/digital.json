@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Example Digital Image 1", 
+        "image": "./assets/img/digital/digital01.png",
+		"description": "This is the first example image. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quam orci, elementum eget sollicitudin id, malesuada et mauris. Duis ultricies suscipit lacus."
+    },
+    {
+        "title": "Example Digital Image 2", 
+        "image": "./assets/img/digital/digital02.png",
+		"description": "This is the second example image."
+    },
+    {
+        "title": "Example Digital Image 3", 
+        "image": "./assets/img/digital/digital03.png",
+		"description": "This is the first example image."
+    },
+    {
+        "title": "Example Digital Image 4", 
+        "image": "./assets/img/digital/digital04.png",
+		"description": "This is the first example image."
+    }
+]

@@ -10,7 +10,6 @@ function getMenu ()
 		});
 		
 		$.getJSON( "./assets/json/menu.json", function(data) {
-			console.log("Setting data");
 			menuRactive.set('list', data);
 			init();
 		});
@@ -20,7 +19,6 @@ function getMenu ()
 }
 
 var r = Rlite();
-
 function processHash()
  {
 	var hash = location.hash || '#';
@@ -36,18 +34,28 @@ function init()
 	
 	window.addEventListener('hashchange', processHash); 
 	processHash();
+	
+	$("#copyright").html("All images copyright © " + (new Date().getFullYear()));
 }
 
 var pageRactive;
-function openPage(pageId) 
+function openPage(page) 
 {
-	menuRactive.set('selected', pageId.params.id);
-	Ractive.load('./pages/' + pageId.params.id + '.html').then( function (Page) {
+	var pageId = page.params.id;
+	var pageType = page.params.type;
+	
+	menuRactive.set('selected', pageId + (pageType ? "?type=" + pageType : ""));
+	Ractive.load('./pages/' + pageId + '.html').then( function (Page) {
 		pageRactive = new Page({
 			el: 'content',
-			data: { }
+			data: { pageType: pageType }
 		});
+		
+		if (pageType)
+		{
+			$.getJSON( "./assets/json/" + pageType + ".json", function(data) {
+				pageRactive.set('images', data);
+			});
+		}
     });
 }
-
-

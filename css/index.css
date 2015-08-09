@@ -7,6 +7,14 @@ html, body {
 	background-color: #f7f7f7;
 }
 
+ul {
+	list-style: none; 
+}
+
+a{
+	text-decoration: none;
+}
+
 #navigation {
 	width: 100%;
 	height: 170px;
@@ -15,6 +23,15 @@ html, body {
 #page {
 	width: 100%;
 	height: 80%;
+}
+
+#copyright {
+	font-size: 10px;
+	text-align: center;
+	width: 100%;
+	color: #9d9d9d; 
+	position: fixed;
+    bottom: 10px;
 }
 
 .centerContent {
@@ -45,7 +62,6 @@ html, body {
 .navMenu  a{
     white-space:nowrap;
     padding-right: 30px;
-	text-decoration: none;
 }
 
 .spacer {
@@ -80,10 +96,6 @@ html, body {
     float: right;
 }
 
-.contactInfo ul {
-	list-style: none; 
-}
-
 .contactInfo {
 	padding-right: 60px;
     float: right;
@@ -99,10 +111,21 @@ html, body {
     color: #000000;
 }
 
+/*  Gallery  */
+.thumbnail {
+	width: 303px; 
+	height: 280px;
+	margin-right: 8px;
+	display: inline-block;
+}
 
-
-
-
-
-
-
+.thumbnail  div{
+	width: 303px; 
+	height: 226px;
+	background-size:cover;
+}
+.thumbnail  h4{
+	font-size: 18px;
+    color: #676767;
+    margin: 0;
+}

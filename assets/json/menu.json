@@ -9,15 +9,15 @@
     },
     {
         "title": "Digital Work", 
-        "id": "digital"
+        "id": "gallery?type=digital"
     },
     {
         "title": "Traditional Media", 
-        "id": "traditional"
+        "id": "gallery?type=traditional"
     },
     {
         "title": "Sketches", 
-        "id": "sketches"
+        "id": "gallery?type=sketches"
     },
     {
         "title": "Video", 
