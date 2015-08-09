@@ -66,3 +66,43 @@ html, body {
 	height: 400px; 
 	margin: 0 auto;
 }
+
+/*  About  */
+.profilePic {
+	background-image: url(../assets/img/profile_pic.png);
+	width: 320px; 
+	height: 240px;
+	float: left;
+}
+
+.contactInfo {
+	margin-right: 120px;
+    float: right;
+}
+
+.contactInfo ul {
+	list-style: none; 
+}
+
+.contactInfo {
+	padding-right: 60px;
+    float: right;
+}
+
+.biography {
+	padding-top: 20px;
+    display:table;
+    width:100%;
+}
+
+.biography h2 {
+    color: #000000;
+}
+
+
+
+
+
+
+
+
