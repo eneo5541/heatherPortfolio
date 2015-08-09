@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Home", 
+        "id": "home"
+    },
+    {
+        "title": "Artist's Bio", 
+        "id": "about"
+    },
+    {
+        "title": "Digital Work", 
+        "id": "digital"
+    },
+    {
+        "title": "Traditional Media", 
+        "id": "traditional"
+    },
+    {
+        "title": "Sketches", 
+        "id": "sketches"
+    },
+    {
+        "title": "Video", 
+        "id": "video"
+    }
+]

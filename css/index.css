@@ -1,0 +1,25 @@
+html, body {
+    margin: 0;
+    height: 100%;
+	font-family: "Helvetica", "sans-serif";
+}
+
+#menu {
+	width: 100%;
+	height: 20%;
+}
+
+#content {
+	width: 100;
+	height: 80%;
+}
+
+.navMenu {
+	width: 1000px;
+	height: 20%;
+	margin: 0px auto 0px auto;
+}
+
+a  {
+	text-decoration: none
+}
