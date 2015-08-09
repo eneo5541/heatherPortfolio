@@ -1,5 +1,10 @@
+<div style="background-image: url(./assets/img/header_logo.png); width: 80px; height: 80px; float:left;"></div>
+<div class="menuTitle">Heather's Illustration & Design Portfolio</div>
+
 <div class="navMenu">
+	<div class="spacer"></div>
 	{{#each list}}
-		<a href="#page/{{id}}">{{title}}</a>
+		<a href="#page/{{id}}" class="{{ selected == id ? 'selected' : 'default' }}">{{title}}</a>
 	{{/each}}
+	<div class="spacer"></div>
 </div>

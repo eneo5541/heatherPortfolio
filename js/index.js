@@ -4,7 +4,9 @@ function getMenu ()
 	Ractive.load('./pages/menu.html').then(function (Menu) {
 		menuRactive = new Menu({
 			el: 'menu',
-			data: { }
+			data: {
+				selected: 'home' 
+				}
 		});
 		
 		$.getJSON( "./assets/json/menu.json", function(data) {
@@ -39,6 +41,7 @@ function init()
 var pageRactive;
 function openPage(pageId) 
 {
+	menuRactive.set('selected', pageId.params.id);
 	Ractive.load('./pages/' + pageId.params.id + '.html').then( function (Page) {
 		pageRactive = new Page({
 			el: 'content',
